@@ -1,9 +1,7 @@
 import Inter from "../public/static/fonts/Inter.ttf";
 import { ThemeProvider, CssBaseline, createTheme, Box } from "@mui/material";
 import RootComponent from "./components/RootComponent";
-import RootPage from "./components/RootPage";
-import DataTable from "./test/DataTable";
-import Hello from "./test/Hello";
+
 
 import {
   Route,
@@ -11,7 +9,7 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./components/bodyComponents/home/Home";
+import Home from "./components/bodyComponents/Home/Home";
 
 function App() {
   const theme = createTheme({
